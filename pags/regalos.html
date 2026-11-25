@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Navidad</h1>
+        <nav>
+            <a href="../index.html" class="bnav">Bienvenida</a>
+            <a href="historia.html" class="bnav">Historia</a>
+            <a href="personajes.html" class="bnav">Personajes</a>
+            <a href="regalos.html" class="bnav">Regalos</a>
+            <a href="comida.html" class="bnav">Comida</a>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h2>Lista de Regalos</h2>
+            <div class="Agregar">
+                <h3>Agregar regalos</h3>
+                <input type="text" placeholder="Nombre del regalo" id="regalo"><input type="number" placeholder="Precio del regalo" id="precio">
+                <br><button type="button" onclick="agregarRegalo()">Agregar regalo</button>
+            </div>
+            <div class="listaregalos">
+                <ul id="lista">
+                </ul>
+                <table>
+                    <tr>
+                        <td><h2 class="totalregalos">Precio total de los regalos: </h2></td><td><h2 id="totalr">0</h2></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>Diseñado por Alex Miguel Huanquiri Garcia</h4>
+    </footer>
+</body>
+</html>

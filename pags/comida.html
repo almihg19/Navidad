@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Navidad</h1>
+        <nav>
+            <a href="../index.html" class="bnav">Bienvenida</a>
+            <a href="historia.html" class="bnav">Historia</a>
+            <a href="personajes.html" class="bnav">Personajes</a>
+            <a href="regalos.html" class="bnav">Regalos</a>
+            <a href="comida.html" class="bnav">Comida</a>
+        </nav>
+    </header>
+    <section>
+        <div class="platosnavidad">
+            <section class="platos">
+                <h2 class="ptitulo">Platos navideños</h2>
+                <table>    
+                    <tr class="platosss">
+                        <td class="platoss"><img src="../img/platos/picana-de-navidad_web.jpg" alt="" class="plato"><div class="info"><h3>Picana</h3><p>Precio: 50bs</p><button type="button" onclick="fpicana()">Agregar al carrito</button></div></td>
+                        <td class="platoss"><img src="../img/platos/aspic-receta-del-pavo-relleno-navideño.jpg" alt="" class="plato"><div class="info"><h3>Pavo relleno</h3><p>Precio: 120bs</p><button type="button" onclick="fpavo()">Agregar al carrito</button></div></td>
+                    </tr>
+                    <tr class="platosss">
+                        <td class="platoss"><img src="../img/platos/paneton-navideno.jpg" alt="" class="plato"><div class="info"><h3>Paneton</h3><p>Precio: 40bs</p><button type="button" onclick="fpaneton()">Agregar al carrito</button></div></td>
+                        <td class="platoss"><img src="../img/platos/lechonhorno.jpg" alt="" class="plato"><div class="info"><h3>Lechon al horno</h3><p>Precio: 50bs</p><button type="button" onclick="flechon()">Agregar al carrito</button></div></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="carrito">
+                <h2 class="ptitulo2">Carrito de compras</h2>
+                <div class="cplatos">
+                    <table>
+                        <tr>
+                            <td class="p1">Picana:</td><td id="picana">0</td>
+                        </tr>
+                        <tr></tr><tr></tr><tr></tr>
+                        <tr>
+                            <td class="p1">Pavo relleno:</td><td id="pavo">0</td>
+                        </tr>
+                        <tr></tr><tr></tr><tr></tr>
+                        <tr>
+                            <td class="p1">Paneton:</td><td id="paneton">0</td>
+                        </tr>
+                        <tr></tr><tr></tr><tr></tr>
+                        <tr>
+                            <td class="p1">Lechon al horno:</td><td id="lechon">0</td>
+                        </tr>
+                    </table>
+                </div><br>
+                <div class="total">
+                    <table>
+                        <tr>
+                            <td class="p1"><h3>Total: </h3></td><td><h3 id="total">0</h3></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <h4>Diseñado por Alex Miguel Huanquiri Garcia</h4>
+    </footer>
+</body>
+</html>
